@@ -5,7 +5,7 @@ contract HelloWorld {
     string private text;
 
     constructor() {
-        text = initialText()
+        text = initialText();
     }
 
     function helloWorld() public view returns (string memory) {
